@@ -44,6 +44,7 @@
                             <input type="radio" name="sexo" id="sexoMasculino" value="M" class="form-check-input">
                             <label for="sexoMasculino" class="form-check-label">Masculino</label>
                         </div>
+                        
                         <div class="form-check form-check-inline">
                             <input type="radio" name="sexo" id="sexoFeminino" value="F" class="form-check-input">
                             <label for="sexoFeminino" class="form-check-label">Feminino</label>
