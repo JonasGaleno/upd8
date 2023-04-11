@@ -22,8 +22,13 @@ Pré-requisitos: Apache, MySQL, PHP, Composer, Npm e Laravel.
 # clonar repositório.
 git clone https://github.com/JonasGaleno/upd8.git
 
-# nos dois diretórios, upd8-crud e upd8-crud-api deve-se instalar as dependências necessárias.
+# nos dois diretórios, upd8-crud e upd8-crud-api deve-se instalar as dependências necessárias do composer.
+
 composer update
+
+# no upd8-crud devemos instalar as dependências de front-end
+
+npm install
 
 # configurar as variáveis de ambiente para conexão com banco de dados e API Rest.
 
