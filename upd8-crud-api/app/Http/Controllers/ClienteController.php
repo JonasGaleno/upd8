@@ -16,6 +16,17 @@ class ClienteController extends Controller
         return Cliente::all();
     }
 
+    public function show(int $clienteId)
+    {
+        $clienteModel = Cliente::whereId($clienteId)->first();
+
+        if ($clienteModel === null) {
+            return response()->json(['message' => 'Cliente não encontrado'], 404);
+        }
+
+        return $clienteModel;
+    }
+
     public function store(Request $request)
     {
         return response()->json(Cliente::create([
@@ -37,9 +48,9 @@ class ClienteController extends Controller
         return $cliente;
     }
 
-    public function destroy(int $cliente)
+    public function destroy(int $clienteId)
     {
-        Cliente::destroy($cliente);
+        Cliente::destroy($clienteId);
 
         return response()->noContent();
     }
