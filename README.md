@@ -28,7 +28,7 @@ composer update
 # configurar as variáveis de ambiente para conexão com banco de dados e API Rest.
 
 # upd8-crud
-API_CLIENTE_URL=h
+API_CLIENTE_URL=
 
 # upd8-crud-api
 DB_CONNECTION=
