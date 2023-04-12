@@ -45,6 +45,8 @@ DB_DATABASE=
 DB_USERNAME=
 DB_PASSWORD=
 
+php artisan key:generate
+
 # para a criação da base de dados, deve-se rodar as migrations e seedings no projeto upd8-crud-api, subirão 5 registros.
 php artisan migrate
 
