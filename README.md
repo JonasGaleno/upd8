@@ -14,6 +14,7 @@ No diretório temos dois projetos, um é o sistema web e o outro é a API Rest. 
 - Laravel
 ## Front end
 - Bootstrap
+- Jquery
 - HTML
 
 Pré-requisitos: Apache, MySQL, PHP, Composer, Npm e Laravel.
