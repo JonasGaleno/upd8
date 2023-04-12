@@ -30,6 +30,7 @@ composer update
 # no upd8-crud devemos instalar as dependências de front-end
 
 npm install
+npx mix
 
 # configurar as variáveis de ambiente para conexão com banco de dados e API Rest.
 
