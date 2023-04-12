@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ $title }} - Controle de Clientes</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <script src="{{ asset('js/app.js') }}"></script>
 </head>
 
 <body>
@@ -31,5 +32,11 @@
 
         {{ $slot }}
     </div>
+
+    <script>
+        $(document).ready(function(){
+            $('.cpf').mask('000.000.000-00', {reverse: true});
+        })
+    </script>
 </body>
 </html>
